@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
+import './index.css';
 import { BrowserRouter as Router } from 'react-router-dom'
-import App from './App.js';
+import App from './App.jsx';
 import * as serviceWorker from './serviceWorker';
-import { RoomProvider } from './context'
+import { RoomProvider } from './context.jsx'
 
 ReactDOM.render(
     <RoomProvider>
