@@ -1,6 +1,6 @@
 import React from 'react'
 import {useContext} from 'react'
-import {RoomContext} from '../context'
+import {RoomContext} from '../context.jsx'
 import Title from '../components/Title.jsx'
 
 const getUniqueItems = (items, value) => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import RoomFilter from './RoomFilter.jsx'
 import RoomList from './RoomList.jsx'
-import {withRoomConsumer} from '../context'
+import {withRoomConsumer} from '../context.jsx'
 import Loading from './Loading.jsx'
 
 function RoomContainer({context}) {
